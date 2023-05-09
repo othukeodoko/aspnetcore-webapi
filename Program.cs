@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SimpleProject.Data.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using SimpleProject.Data.Services;
+using SimpleProject.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+var scope = app.Services.CreateScope();
+await DataHelper.ManageDataAsync(scope.ServiceProvider);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
