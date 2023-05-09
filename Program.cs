@@ -1,6 +1,16 @@
+
+using Microsoft.EntityFrameworkCore.SqlServer;
+using Microsoft.EntityFrameworkCore;
+using SimpleProject.Data.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using SimpleProject.Data.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
+//DbContext configuration
+builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Add services to the container.
+builder.Services.AddScoped<BooksService, BooksService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -17,7 +27,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.MapControllers();
 
+//Seed database
+AppDbInitializer.Seed(app);
 app.Run();
