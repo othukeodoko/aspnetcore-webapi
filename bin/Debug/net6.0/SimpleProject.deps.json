@@ -9,6 +9,7 @@
       "SimpleProject/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
