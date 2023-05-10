@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SimpleProject.Data.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using SimpleProject.Data.Services;
-
+using SimpleProject.Helper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +20,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-//var scope = app.Services.CreateScope();
-//await DataHelper.ManageDataAsync(scope.ServiceProvider);
+var scope = app.Services.CreateScope();
+await DataHelper.ManageDataAsync(scope.ServiceProvider);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
