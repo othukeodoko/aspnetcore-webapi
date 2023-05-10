@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TpAfNWvVYWk+PhrS1pRFDNEzY3NcwdrScMhcqudrpTXlO84/0W5u3Jl7nHbmy5RYTA0ObSLYd8PDropubBTC3A==",
+  "dgSpecHash": "jDYOfB9GIOYWLpV30conqDzUM2e6NoqDM8LXi5loFeM7//mN0lsOk5qcyUSRkl4EHPKsLZpNB9dcLPRj8Rw4BA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\SimpleProject\\SimpleProject.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,6 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.21.0\\microsoft.identitymodel.protocols.6.21.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.21.0\\microsoft.identitymodel.protocols.openidconnect.6.21.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.21.0\\microsoft.identitymodel.tokens.6.21.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.net.compilers\\4.2.0\\microsoft.net.compilers.4.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
