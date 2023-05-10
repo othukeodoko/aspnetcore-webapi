@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SimpleProject.Data.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using SimpleProject.Data.Services;
-using SimpleProject.Helpers;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
