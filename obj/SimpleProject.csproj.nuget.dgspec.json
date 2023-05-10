@@ -71,6 +71,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "npgsql.entityframeworkcore.postgresql": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [

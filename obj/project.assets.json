@@ -714,6 +714,25 @@
           }
         }
       },
+      "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "[7.0.5, 8.0.0)",
+          "Microsoft.EntityFrameworkCore.Abstractions": "[7.0.5, 8.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "[7.0.5, 8.0.0)",
+          "Npgsql": "7.0.4"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -2390,6 +2409,23 @@
         "postgresql.png"
       ]
     },
+    "Npgsql.EntityFrameworkCore.PostgreSQL/7.0.4": {
+      "sha512": "ZYMtyG6pmLtUsFAx0/XaIlVkJM+1gArWEKD55cLLxiVlGScAphjiGj+G7Gk16yg5lhhdWx+bgXWpIUISXuS33g==",
+      "type": "package",
+      "path": "npgsql.entityframeworkcore.postgresql/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
+        "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "lib/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
+        "npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -3852,7 +3888,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.2",
       "Npgsql >= 7.0.4",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "npgsql.entityframeworkcore.postgresql >= 7.0.4"
     ]
   },
   "packageFolders": {
@@ -3925,6 +3962,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "npgsql.entityframeworkcore.postgresql": {
+            "target": "Package",
+            "version": "[7.0.4, )"
           }
         },
         "imports": [

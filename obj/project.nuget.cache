@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e2YTuq/7FZfQaXMsyW097DNZAx32JIzUPpj+47yFBYxN7xfLWUigCXqR38cnyEMc2MyoXPwobXFrLN09x38vPg==",
+  "dgSpecHash": "jDYOfB9GIOYWLpV30conqDzUM2e6NoqDM8LXi5loFeM7//mN0lsOk5qcyUSRkl4EHPKsLZpNB9dcLPRj8Rw4BA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\SimpleProject\\SimpleProject.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
