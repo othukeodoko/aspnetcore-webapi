@@ -9,7 +9,7 @@ using SimpleProject.Helpers;
 var builder = WebApplication.CreateBuilder(args);
 
 //DbContext configuration
-builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+builder.Services.AddDbContext<AppDBContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 // Add services to the container.
 builder.Services.AddScoped<BooksService, BooksService>();
 
@@ -19,8 +19,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-var scope = app.Services.CreateScope();
-await DataHelper.ManageDataAsync(scope.ServiceProvider);
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+//var scope = app.Services.CreateScope();
+//await DataHelper.ManageDataAsync(scope.ServiceProvider);
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

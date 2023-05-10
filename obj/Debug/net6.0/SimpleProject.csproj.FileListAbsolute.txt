@@ -86,3 +86,4 @@ C:\Users\Administrator\source\repos\SimpleProject\bin\Debug\net6.0\runtimes\win\
 C:\Users\Administrator\source\repos\SimpleProject\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Administrator\source\repos\SimpleProject\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\Administrator\source\repos\SimpleProject\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Administrator\source\repos\SimpleProject\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
